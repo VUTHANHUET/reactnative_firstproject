@@ -6,8 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Anh yêu Tâm</Text>
-      <TouchableOpacity>
-      </TouchableOpacity>
+     
       <StatusBar style="auto" />
     </View>
   );
