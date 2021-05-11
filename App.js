@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Anh yêu Tâm</Text>
+      <Text>Anh yêu Tâm, cố ý để conflict</Text>
      
       <StatusBar style="auto" />
     </View>
