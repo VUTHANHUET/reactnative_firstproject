@@ -1,13 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-
+import CategoryListItem from './components/CategoryListItem';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>I dont know who you are</Text>
-     
-      <StatusBar style="auto" />
+     <CategoryListItem/>
+     <CategoryListItem/>
+     <CategoryListItem/>
+     <CategoryListItem/>
+     <CategoryListItem/>
+     <CategoryListItem/>
     </View>
   );
 }
@@ -15,8 +18,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#1df',
-    alignItems: 'center',
+    backgroundColor: '#fff',
+    alignItems: 'stretch',
     justifyContent: 'center',
+    paddingLeft: 30,
+    paddingRight:30
   },
 });
